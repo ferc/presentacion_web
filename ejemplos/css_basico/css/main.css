@@ -1,0 +1,15 @@
+#resultados {
+	border: 2px solid black;
+}
+
+#resultados th {
+	color: red;
+}
+
+.highlight {
+	font-size: 30px;
+}
+
+button {
+	background-color: #66FF44;
+}

@@ -1,0 +1,7 @@
+cordova create repositorios com.fer.repositories Repositorios
+
+reemplazar los archivos de /www por los de angular
+
+cordova platform add android
+
+cordova run android
