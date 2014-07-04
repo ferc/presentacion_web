@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="pptApp">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	</head>
+	<body ng-controller="mainController">
+		<div class="container">
+			<h2>Repositorios</h2>
+
+			<div class="row">
+				<table class="table table-striped" ng-class="{ hide: hideResults }">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Nombre</th>
+							<th>URL</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr ng-repeat="repository in repositories">
+							<td>{{ repository.id }}</td>
+							<td>{{ repository.name }}</td>
+							<td>{{ repository.html_url }}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<button ng-click="loadRepositories()" type="button" class="btn btn-primary pull-right">Cargar repositorios</button>
+		</div>
+
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
