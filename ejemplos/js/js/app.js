@@ -1,4 +1,4 @@
-function getGithubRepositories(callback) {
+function getGithubRepositories() {
 	var xmlhttp;
 
 	if (window.XMLHttpRequest) {

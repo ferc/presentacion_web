@@ -1,9 +1,10 @@
 #resultados {
-	border: 2px solid black;
+	border: 2px dashed black;
 }
 
 #resultados th {
 	color: red;
+	font-family: arial;
 }
 
 .highlight {
