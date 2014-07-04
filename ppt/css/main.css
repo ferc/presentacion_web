@@ -92,3 +92,7 @@
 .diagram-right {
   width: 40%;
 }
+
+li {
+  margin-bottom: 30px !important;
+}

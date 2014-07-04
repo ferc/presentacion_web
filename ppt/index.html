@@ -171,7 +171,7 @@
 					</section>
 
 					<section>
-						<img src="img/css.png" alt="HTML">
+						<img src="img/css.png" alt="CSS">
 					</section>
 
 					<section>
@@ -235,7 +235,7 @@ button {
 					</section>
 
 					<section>
-						<img src="img/javascript.png" alt="HTML">
+						<img src="img/javascript.png" alt="JavaScript">
 					</section>
 
 					<section>
@@ -275,6 +275,8 @@ function factorial(n) {
 resultado = factorial(5);
 							</code>
 						</pre>
+
+						<a href="http://localhost:5001/js/" target="_blank">DEMO</a>
 					</section>
 				</section>
 
@@ -294,9 +296,29 @@ resultado = factorial(5);
 					</section>
 
 					<section>
-						<img src="img/jquery.png" alt="HTML">
+						<img src="img/jquery.png" alt="jQuery">
 						<hr />
 						<a href="http://www.jquery.com">http://www.jquery.com</a>
+					</section>
+
+					<section>
+						<h2>jQuery</h2>
+
+						<p>Se utiliza para simplificar la sintaxis y para evitar problemas de compatibilidad entre navegadores.</p>
+						
+						<pre>
+							<code data-trim style="font-size: 18px; margin-top: 20px;">
+$("button.continue").html( "Next Step...");
+
+var hiddenBox = $( "#banner-message" );
+
+$( "#button-container button" ).on( "click", function( event ) {
+  hiddenBox.show();
+});
+							</code>
+						</pre>
+
+						<a href="http://localhost:5001/jquery/" target="_blank">DEMO</a>
 					</section>
 				</section>
 
@@ -316,9 +338,41 @@ resultado = factorial(5);
 					</section>
 
 					<section>
-						<img src="img/angularjs.png" alt="HTML">
+						<img src="img/angularjs.png" alt="AngularJS">
 						<hr />
 						<a href="http://www.angularjs.org">http://www.angularjs.org</a>
+					</section>
+
+					<section>
+						<h2>Angular JS</h2>
+
+						<ul>
+							<li>Es un framework JavaScript que ayuda a crear "Single Page App" (SPA).</li>
+
+							<li>Ayuda a estructurar el código separándolo en Módulos que continen Controladores, Directivas, Filtros y Servicios.</li>
+						</ul>
+					</section>
+						
+					<section>
+						<h2>Angular JS</h2>
+						<pre>
+							<code data-trim style="font-size: 18px; margin-top: 20px;">
+&lt;!DOCTYPE html>
+&lt;html ng-app>
+ 	&lt;head>
+		&lt;script src="js/angular.min.js">&lt;/script>
+	&lt;/head>
+	&lt;body>
+		&lt;label>Name:&lt;/label>
+		&lt;input type="text" ng-model="yourName">
+
+		&lt;h1>Hello {{yourName}}!&lt;/h1>
+	&lt;/body>
+&lt;/html>
+							</code>
+						</pre>
+
+						<a href="http://localhost:5001/angularjs/" target="_blank">DEMO</a>
 					</section>
 				</section>
 
@@ -338,9 +392,17 @@ resultado = factorial(5);
 					</section>
 
 					<section>
-						<img src="img/cordova.png" alt="HTML">
+						<img src="img/cordova.png" alt="Cordova">
 						<hr />
 						<a href="http://cordova.apache.org">http://cordova.apache.org</a>
+					</section>
+
+					<section>
+						<h2>Apache Cordova</h2>
+
+						<p>Es una plataforma para construir aplicaciones móviles nativas utilizando HTML, CSS y JavaScript.</p>
+						
+						<p style="margin-top: 60px; color: #3366CC">- CREAR DEMO -</p>
 					</section>
 				</section>
 
@@ -360,8 +422,45 @@ resultado = factorial(5);
 					</section>
 
 					<section>
-						<img src="img/html.png" alt="HTML">
+						<h2>Versionado</h2>
+						
+						<div>
+							<img style="width: 400px; padding-top: 80px;" src="img/git.png" alt="Git">
+							<img style="float: left; width: 400px; " src="img/svn.png" alt="SVN">
+						</div>
 					</section>
+
+					<section>
+						<h2>Git</h2>
+						
+						<h3>Github</h3>
+
+						<ul>
+							<li>El repositorio open source más popular.</li>
+							<li>Fácil de utilizar.</li>
+							<li>De forma gratuita sólo permite proyectos open source.</li>
+						</ul>
+
+						<a href="https://github.com/" target="_blank" style="margin-top: 150px;">https://github.com/</a>
+					</section>
+
+					<section>
+						<h2>Git</h2>
+						
+						<h3>Bitbucket</h3>
+
+						<ul>
+							<li>Fácil de utilizar.</li>
+							<li>Permite repositorios privados para un equipo de máximo 10 personas.</li>
+						</ul>
+
+						<a href="https://bitbucket.org/" target="_blank" style="margin-top: 150px;">https://bitbucket.org/</a>
+					</section>
+				</section>
+
+
+				<section>
+					<p>Esta presentación fué hecha con HTML + CSS + JS utilizando la librería <a href="http://lab.hakim.se/reveal-js/" target="_blank">Reveal.js</a></p>
 				</section>
 
 				<section>
@@ -369,7 +468,9 @@ resultado = factorial(5);
 				</section>
 
 				<section>
-					<h1>Muchas gracias.</h1>
+					<p style="margin-bottom: 50px;">Los ejemplos y la presentación se encuentran subidos en: <a href="https://github.com/ferc/presentacion_web" target="_blank">https://github.com/ferc/presentacion_web</a><p>
+
+					<h2 class="fragment roll-in">Muchas gracias.</h2>
 				</section>
 			</div>
 
